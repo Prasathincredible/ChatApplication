@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "homepage": "https://Prasathincredible.github.io/ChatApplication",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "prasath",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "gh-pages": "^6.1.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
